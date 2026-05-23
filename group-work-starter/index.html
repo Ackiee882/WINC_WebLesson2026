@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DENSEI circle HP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- [Rebuttal: なぜ header タグを使うのか？] 
+         単なる div ではなく、文書の「頭」であることを検索エンジンや支援技術に伝えるため。-->
+    <header class="header">
+        <div class="logo">THE DENSEI</div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Activities</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ヒーローセクション: キャッチコピーと背景画像 -->
+        <section class="hero">
+            <h1>We are DENSEI circle</h1>
+            <img src="densei.jpg" alt="電生テーマ画像">
+        </section>
+
+        <section class="condition">
+            <h2 class="list-condition">加入条件</h2>
+            <ol>
+                <li>電生に所属している学生であること</li>
+                <li>サークルのポリシーに同意すること</li>
+                <li>教員の理不尽に立ち向かえるもの</li>
+            </ol>
+        </section>
+
+
+        <!-- アクティビティ: Gridレイアウトの練習に最適 -->
+        <section class="activities">
+            <h2 class="section-title">Activities</h2>
+            <div class="activity-grid">
+                <div class="card">
+                    <h3>過去問・過去レポ共有会</h3>
+                    <p>学部２年の先輩と新入生で過去問の共有を通して親睦を深めます。</p>
+                </div>
+                <div class="card">
+                    <h3>教授を愚痴るの回</h3>
+                    <p>厄介な教授達を愚痴れる電生のがくせいのいこいのば主に福島先生</p>
+                </div>
+                <div class="card">
+                    <h3>総会</h3>
+                    <p>今後の方針やサークル企画について話し合います。</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 THE DENSEI. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
